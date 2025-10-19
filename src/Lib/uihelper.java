@@ -48,7 +48,6 @@ public class uihelper {
 		try {
 			driver.close();
 			reporter.info("Browser closed successfully");
-			System.out.println("Browser closed successfully");
 		}catch(Exception e) {
 			System.out.println(e);
 		}
