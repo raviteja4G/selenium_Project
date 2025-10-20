@@ -42,6 +42,10 @@ public class uihelper {
 		launchUrl(url,null);
 	}
 	
+	public static void login() {
+		
+	}
+	
 	//********************* Closing the Browser ******************
 
 	public static void closer() {
@@ -52,6 +56,63 @@ public class uihelper {
 			System.out.println(e);
 		}
 	}
+	
+	//********************* click ******************
+	
+	/*
+	 * Options for click any web Element in UI
+	 * 1. With xpath
+	 * 2. With label text
+	 * 3. With other 
+	 */
+	
+	public static void click() {
+		
+		
+	}
+	
+	//********************* Set ******************
+		
+	public static void set() {
+		
+		
+	}
+	
+	//********************* select ******************
+	
+	public static void select() {
+		
+		
+	}
+	
+	//********************* clear Text ******************
+	
+	public static void clearText() {
+		
+		
+	}
+	
+	//********************* clear Text ******************
+	
+	public static void check() {
+		
+		
+	}
+	
+	
+	public static void Uncheck() {
+		
+		
+	}
+	
+   public static void wait(int time) {
+		
+		
+	}
+   
+   public static void logout() {
+	   
+   }
 	
 	
 }
